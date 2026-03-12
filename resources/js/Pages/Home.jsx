@@ -7,6 +7,7 @@ import PopularDeals from "@/Components/Sections/PopularDeals";
 import DestinationCategories from "@/Components/Sections/DestinationCategories";
 import PromoBlock from "@/Components/Sections/PromoBlock";
 import Testimonials from "@/Components/Sections/Testimonials";
+import CtaSection from "@/Components/Sections/CtaSection";
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
             <DestinationCategories />
             <PromoBlock />
             <Testimonials />
+            <CtaSection />
         </MainLayout>
     );
 }
